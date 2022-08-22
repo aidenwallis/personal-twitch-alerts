@@ -1,5 +1,8 @@
 .container {
   margin: 1rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
   margin-left: auto;
   display: inline-block;
   &__inner {
