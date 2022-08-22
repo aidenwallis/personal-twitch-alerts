@@ -1,0 +1,8 @@
+.container {
+  margin: 1rem;
+  margin-left: auto;
+  display: inline-block;
+  &__inner {
+    min-width: 18rem;
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__inner">
+        <div class="header gradient inset">
+          <img
+            src="<%= require('./skype-logo.png') %>"
+            alt="Skype logo"
+            height="16"
+          />
+        </div>
+        <div class="body">
+          <div class="flex">
+            <div class="sprite">
+              <img
+                src="<%= require('./online-sprite.png') %>"
+                alt="Online sprite"
+                width="16"
+                height="16"
+              />
+            </div>
+            <div class="message">
+              <h3 class="message__name">Aiden</h3>
+              <h4 class="message__tag">just followed the stream</h4>
+            </div>
+          </div>
+        </div>
+        <div class="footer gradient"></div>
+      </div>
+    </div>
+  </body>
+</html>

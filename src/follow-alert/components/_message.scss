@@ -1,0 +1,14 @@
+.message {
+  padding-left: 0.5rem;
+  padding-right: 2rem;
+  &__name {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    color: #575354;
+  }
+  &__tag {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #767676;
+  }
+}

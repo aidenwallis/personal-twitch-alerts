@@ -1,0 +1,14 @@
+.gradient {
+  background: linear-gradient(
+      180deg,
+      #ff9c07 0%,
+      #ff8902 36.98%,
+      #fc7c04 77.08%,
+      #e06713 100%
+    ),
+    #fa7f06;
+}
+
+.inset {
+  box-shadow: inset 0px -1px 0px #bc672b, inset 0px 1px 0px #ffca5b;
+}

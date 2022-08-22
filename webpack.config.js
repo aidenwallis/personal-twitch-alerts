@@ -2,10 +2,10 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
 
-module.exports = {
-  entry: path.join(__dirname, "src/index.scss"),
+const configFactory = (dir) => ({
+  entry: path.join(__dirname, `src/${dir}/index.scss`),
   output: {
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "dist/" + dir),
     filename: "[name].js",
   },
   module: {
@@ -31,10 +31,12 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, "./src/index.html"),
+      template: path.join(__dirname, `./src/${dir}/index.html`),
     }),
   ],
   resolve: {
     extensions: [".scss"],
   },
-};
+});
+
+module.exports = [configFactory("sub-alert"), configFactory("follow-alert")];

@@ -1,0 +1,26 @@
+@import "./reset";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Segoe UI", sans-serif;
+}
+
+@import "./components/index";
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.between {
+  justify-content: space-between;
+}
