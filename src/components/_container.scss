@@ -1,0 +1,10 @@
+.container {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  margin-left: auto;
+  display: inline-block;
+  background: linear-gradient(180deg, #cbe2fb 0%, #e9f6fe 84.9%, #e3f4ff 100%);
+  box-shadow: 0px 0px 4px 1px #717171, inset -1px -1px 0px #61d3f4,
+    inset 1px 1px 0px #f2f8ff;
+  border-radius: 4px;
+}

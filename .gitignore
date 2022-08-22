@@ -1,0 +1,8 @@
+yarn-error.log
+npm-error.log
+
+# why aren't u using yarn
+package-lock.json
+
+node_modules/
+dist/

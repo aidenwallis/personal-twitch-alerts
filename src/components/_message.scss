@@ -1,0 +1,11 @@
+.message {
+  padding-left: 0.5rem;
+  padding-top: 1.6rem;
+  padding-right: 2rem;
+  &__name {
+    font-size: 1.6rem;
+  }
+  &__tag {
+    font-size: 1.2rem;
+  }
+}

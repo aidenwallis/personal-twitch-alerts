@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header flex between">
+        <div class="flex align-center">
+          <img src="<%= require('./msn-logo.png') %>" alt="MSN" />
+          <span class="header__title">Windows Live Messenger</span>
+        </div>
+        <div class="header__close">&times;</div>
+      </div>
+      <div class="flex body">
+        <div class="avatar">
+          <img src="<%= require('./avatar.png') %>" alt="MSN avatar" />
+        </div>
+        <div class="message">
+          <h2 class="message__name">Aiden</h2>
+          <h4 class="message__tag">has just signed in.</h4>
+        </div>
+      </div>
+      <div class="footer">
+        <a href="#" class="footer__options">Options</a>
+      </div>
+    </div>
+  </body>
+</html>
