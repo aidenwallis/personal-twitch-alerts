@@ -7,37 +7,35 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="window">
-        <img
-          src="<%= require('./background.png') %>"
-          alt="Image background"
-          class="background"
-          draggable="false"
-        />
-        <div class="content">
-          <div class="header">
-            <h1 class="title">
-              {{ user }} just cheered some bits!<br />
-              ...You should start being more entertaining.
-            </h1>
+    <div class="window">
+      <img
+        src="<%= require('./background.png') %>"
+        alt="Image background"
+        class="background"
+        draggable="false"
+      />
+      <div class="content">
+        <div class="header">
+          <h1 class="title">
+            {{ user }} just cheered some bits!<br />
+            ...You should start being more entertaining.
+          </h1>
+        </div>
+        <div class="message">
+          <p>some message here</p>
+        </div>
+        <div class="reminder">
+          <span class="cheered-label">They cheered:</span>
+          <div class="button-cover">
+            <span class="button-text">{{ amount }} bits</span>
           </div>
-          <div class="message">
-            <p>some message here</p>
+        </div>
+        <div class="buttons">
+          <div class="button-wrapper">
+            <div class="button"><u>B</u>e funny</div>
           </div>
-          <div class="reminder">
-            <span class="cheered-label">They cheered:</span>
-            <div class="button-cover">
-              <span class="button-text">{{ amount }} bits</span>
-            </div>
-          </div>
-          <div class="buttons">
-            <div class="button-wrapper">
-              <div class="button"><u>B</u>e funny</div>
-            </div>
-            <div class="button-wrapper">
-              <div class="button"><u>D</u>ismiss</div>
-            </div>
+          <div class="button-wrapper">
+            <div class="button"><u>D</u>ismiss</div>
           </div>
         </div>
       </div>
