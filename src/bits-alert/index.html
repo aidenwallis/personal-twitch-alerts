@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="window">
+      <img
+        src="<%= require('./background.png') %>"
+        alt="Image background"
+        class="background"
+        draggable="false"
+      />
+      <div class="content">
+        <div class="header">
+          <h1 class="title">
+            {{ user }} just cheered some bits!<br />
+            ...You should start being more entertaining.
+          </h1>
+        </div>
+        <div class="message">
+          <p>some message here</p>
+        </div>
+        <div class="reminder">
+          <span class="cheered-label">They cheered:</span>
+          <div class="button-cover">
+            <span class="button-text">{{ amount }} bits</span>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="button-wrapper">
+            <div class="button"><u>B</u>e funny</div>
+          </div>
+          <div class="button-wrapper">
+            <div class="button"><u>D</u>ismiss</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

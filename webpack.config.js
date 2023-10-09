@@ -39,4 +39,9 @@ const configFactory = (dir) => ({
   },
 });
 
-module.exports = [configFactory("sub-alert"), configFactory("follow-alert"), configFactory("raid-alert")];
+module.exports = [
+  configFactory("sub-alert"),
+  configFactory("follow-alert"),
+  configFactory("raid-alert"),
+  configFactory("bits-alert"),
+];
